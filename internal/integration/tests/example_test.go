@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	r "gopkg.in/gorethink/gorethink.v4"
+	r "gopkg.in/rebirthdb/rebirthdb-go.v4"
 )
 
 func Example() {

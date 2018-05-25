@@ -7,7 +7,7 @@ import (
 	"time"
 
 	test "gopkg.in/check.v1"
-	r "gopkg.in/gorethink/gorethink.v4"
+	r "gopkg.in/rebirthdb/rebirthdb-go.v4"
 	"strings"
 	"strconv"
 )

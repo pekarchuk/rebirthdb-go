@@ -1,4 +1,4 @@
-package gorethink
+package rebirthdb
 
 import (
 	"bytes"
@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"gopkg.in/gorethink/gorethink.v4/encoding"
-	p "gopkg.in/gorethink/gorethink.v4/ql2"
+	"gopkg.in/rebirthdb/rebirthdb-go.v4/encoding"
+	p "gopkg.in/rebirthdb/rebirthdb-go.v4/ql2"
 	"github.com/opentracing/opentracing-go"
 )
 

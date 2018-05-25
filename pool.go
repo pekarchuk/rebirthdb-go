@@ -1,4 +1,4 @@
-package gorethink
+package rebirthdb
 
 import (
 	"errors"

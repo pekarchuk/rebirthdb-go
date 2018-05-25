@@ -1,7 +1,7 @@
-package gorethink
+package rebirthdb
 
 import (
-	p "gopkg.in/gorethink/gorethink.v4/ql2"
+	p "gopkg.in/rebirthdb/rebirthdb-go.v4/ql2"
 )
 
 // DBCreate creates a database. A RethinkDB database is a collection of tables,

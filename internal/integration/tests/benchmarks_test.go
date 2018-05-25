@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 	"time"
-	r "gopkg.in/gorethink/gorethink.v4"
+	r "gopkg.in/rebirthdb/rebirthdb-go.v4"
 )
 
 func BenchmarkBatch200RandomWrites(b *testing.B) {

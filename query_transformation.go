@@ -1,6 +1,6 @@
-package gorethink
+package rebirthdb
 
-import p "gopkg.in/gorethink/gorethink.v4/ql2"
+import p "gopkg.in/rebirthdb/rebirthdb-go.v4/ql2"
 
 // Map transform each element of the sequence by applying the given mapping
 // function. It takes two arguments, a sequence and a function of type

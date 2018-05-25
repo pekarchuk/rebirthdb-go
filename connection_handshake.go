@@ -1,4 +1,4 @@
-package gorethink
+package rebirthdb
 
 import (
 	"bufio"
@@ -16,7 +16,7 @@ import (
 
 	"golang.org/x/crypto/pbkdf2"
 
-	p "gopkg.in/gorethink/gorethink.v4/ql2"
+	p "gopkg.in/rebirthdb/rebirthdb-go.v4/ql2"
 )
 
 type HandshakeVersion int

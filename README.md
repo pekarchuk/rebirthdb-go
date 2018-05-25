@@ -20,7 +20,7 @@ If you need any help you can find me on the [RethinkDB slack](http://slack.rethi
 ## Installation
 
 ```
-go get gopkg.in/gorethink/gorethink.v4
+go get gopkg.in/rebirthdb/rebirthdb-go.v4
 ```
 
 Replace `v4` with `v3` or `v2` to use previous versions.
@@ -29,13 +29,13 @@ Replace `v4` with `v3` or `v2` to use previous versions.
 
 [embedmd]:# (example_test.go go)
 ```go
-package gorethink_test
+package rebirthdb_test
 
 import (
 	"fmt"
 	"log"
 
-	r "gopkg.in/gorethink/gorethink.v4"
+	r "gopkg.in/rebirthdb/rebirthdb-go.v4"
 )
 
 func Example() {

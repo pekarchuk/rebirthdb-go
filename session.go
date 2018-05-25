@@ -1,4 +1,4 @@
-package gorethink
+package rebirthdb
 
 import (
 	"crypto/tls"
@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	p "gopkg.in/gorethink/gorethink.v4/ql2"
+	p "gopkg.in/rebirthdb/rebirthdb-go.v4/ql2"
 )
 
 // A Session represents a connection to a RethinkDB cluster and should be used

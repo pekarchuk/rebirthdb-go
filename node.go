@@ -1,10 +1,10 @@
-package gorethink
+package rebirthdb
 
 import (
 	"sync"
 
 	"golang.org/x/net/context"
-	p "gopkg.in/gorethink/gorethink.v4/ql2"
+	p "gopkg.in/rebirthdb/rebirthdb-go.v4/ql2"
 )
 
 // Node represents a database server in the cluster

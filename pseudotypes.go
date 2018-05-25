@@ -1,4 +1,4 @@
-package gorethink
+package rebirthdb
 
 import (
 	"encoding/base64"
@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"gopkg.in/gorethink/gorethink.v4/types"
+	"gopkg.in/rebirthdb/rebirthdb-go.v4/types"
 
 	"fmt"
 )

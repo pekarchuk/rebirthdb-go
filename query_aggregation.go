@@ -1,6 +1,6 @@
-package gorethink
+package rebirthdb
 
-import p "gopkg.in/gorethink/gorethink.v4/ql2"
+import p "gopkg.in/rebirthdb/rebirthdb-go.v4/ql2"
 
 // Aggregation
 // These commands are used to compute smaller values from large sequences.

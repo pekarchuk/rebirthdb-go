@@ -1,4 +1,4 @@
-package gorethink
+package rebirthdb
 
 import (
 	"reflect"
@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"gopkg.in/gorethink/gorethink.v4/encoding"
-	p "gopkg.in/gorethink/gorethink.v4/ql2"
+	"gopkg.in/rebirthdb/rebirthdb-go.v4/encoding"
+	p "gopkg.in/rebirthdb/rebirthdb-go.v4/ql2"
 )
 
 // Helper functions for constructing terms

@@ -1,11 +1,11 @@
-package gorethink
+package rebirthdb
 
 import (
 	"reflect"
 
 	"github.com/sirupsen/logrus"
 
-	"gopkg.in/gorethink/gorethink.v4/encoding"
+	"gopkg.in/rebirthdb/rebirthdb-go.v4/encoding"
 	"io/ioutil"
 )
 

@@ -1,4 +1,4 @@
-package gorethink
+package rebirthdb
 
 import (
 	"encoding/json"
@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	p "gopkg.in/gorethink/gorethink.v4/ql2"
+	p "gopkg.in/rebirthdb/rebirthdb-go.v4/ql2"
 )
 
 // Mocking is based on the amazing package github.com/stretchr/testify
